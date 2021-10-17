@@ -1,6 +1,6 @@
 module Datasets
 
-using LightGraphs
+using Graphs
 using MatrixDepot
 
 # matrixdepot

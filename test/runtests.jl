@@ -1,7 +1,7 @@
-using LightGraphs
-using LightGraphsExtras
-using LightGraphsExtras.Datasets
-using LightGraphsExtras.Interdiction
+using Graphs
+using GraphsExtras
+using GraphsExtras.Datasets
+using GraphsExtras.Interdiction
 using Test
 
 testdir = dirname(@__FILE__)
@@ -11,7 +11,7 @@ tests = [
     "interdiction"
 ]
 
-@testset "LightGraphsExtras" begin
+@testset "GraphsExtras" begin
     for t in tests
             tp = joinpath(testdir, t, "runtests.jl")
             println("running $(tp) ...")

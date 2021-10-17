@@ -1,7 +1,7 @@
 using Test
-using LightGraphs
-using LightGraphsExtras.Interdiction
-using LightGraphsFlows: maximum_flow
+using Graphs
+using GraphsExtras.Interdiction
+using GraphsFlows: maximum_flow
 
 @testset "interdiction" begin
 

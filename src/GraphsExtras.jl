@@ -1,6 +1,6 @@
-module LightGraphsExtras
+module GraphsExtras
 
-using LightGraphs
+using Graphs
 
 export Datasets
 export Interdiction
